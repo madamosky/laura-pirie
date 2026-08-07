@@ -7,3 +7,176 @@ Created:November 2014
 License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
 File Description: Place here your custom CSS styles
 */
+
+body {
+	color: #2d2926;
+}
+
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+.text-colored,
+a {
+	color: #b9415f;
+}
+
+a:hover,
+a:focus {
+	color: #7c2d3d;
+}
+
+.header {
+	background-color: rgba(24, 20, 18, 0.2);
+}
+
+.fixed-header-on .header {
+	background-color: rgba(24, 20, 18, 0.96);
+}
+
+.site-name {
+	font-size: 34px;
+}
+
+.site-slogan {
+	color: rgba(255, 255, 255, 0.82);
+}
+
+.banner {
+	min-height: 680px;
+}
+
+.banner:after {
+	background: linear-gradient(90deg, rgba(18, 12, 11, 0.78), rgba(18, 12, 11, 0.38), rgba(18, 12, 11, 0.72));
+}
+
+.banner-caption {
+	top: 38%;
+}
+
+.banner-caption h1 {
+	font-size: 72px;
+	text-shadow: 0 2px 18px rgba(0, 0, 0, 0.4);
+}
+
+.banner-caption .lead {
+	font-size: 25px;
+	text-shadow: 0 2px 14px rgba(0, 0, 0, 0.45);
+}
+
+.main-navigation .navbar-default .navbar-nav > li.active > a,
+.main-navigation .navbar-default .navbar-nav > li > a:hover,
+.main-navigation .navbar-default .navbar-nav > li.active > a:hover {
+	color: #ffc857;
+}
+
+.studio-notes {
+	text-align: center;
+}
+
+.studio-notes i {
+	color: #b9415f;
+	font-size: 38px;
+	margin-bottom: 12px;
+}
+
+.studio-notes p {
+	color: #5d5753;
+}
+
+.default-bg.rose {
+	background-color: #b9415f;
+}
+
+.separator:after {
+	background: #b9415f;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus,
+.nav-pills > li > a:hover {
+	background-color: #b9415f;
+	border-color: #b9415f;
+}
+
+.image-box {
+	background-color: #ffffff;
+	box-shadow: 0 10px 25px rgba(45, 41, 38, 0.08);
+}
+
+.image-box .overlay-container {
+	aspect-ratio: 1 / 1;
+	background-color: #f3efeb;
+	overflow: hidden;
+}
+
+.image-box .overlay-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.overlay-container .overlay {
+	background-color: rgba(185, 65, 95, 0.82);
+}
+
+.btn {
+	white-space: normal;
+	min-height: 52px;
+}
+
+.btn-default {
+	color: #7c2d3d;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+	background-color: #b9415f;
+	border-color: #b9415f;
+}
+
+.modal-header {
+	background-color: #7c2d3d;
+}
+
+.artwork-modal .modal-body {
+	background-color: #151210;
+	padding: 18px;
+}
+
+.artwork-modal .modal-body img {
+	max-height: 78vh;
+	margin: 0 auto;
+	width: auto;
+}
+
+.default-bg.black {
+	background-color: #211c1a;
+}
+
+.subfooter {
+	background-color: #f5f1ec;
+}
+
+@media (max-width: 767px) {
+	.site-name {
+		font-size: 28px;
+	}
+
+	.banner {
+		min-height: 560px;
+	}
+
+	.banner-caption {
+		top: 34%;
+	}
+
+	.banner-caption h1 {
+		font-size: 48px;
+	}
+
+	.banner-caption .lead {
+		font-size: 20px;
+	}
+}
