@@ -91,9 +91,9 @@
 					$items.each(function() {
 						var $item = $(this);
 						if (filterValue === "*" || $item.is(filterValue)) {
-							$item.stop(true, true).fadeIn(250);
+							$item.stop(true, true).show();
 						} else {
-							$item.stop(true, true).fadeOut(250);
+							$item.stop(true, true).hide();
 						}
 					});
 				}
