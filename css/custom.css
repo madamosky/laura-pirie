@@ -148,6 +148,7 @@ a:focus {
 	color: #ffffff;
 	font-size: 20px;
 	line-height: 1;
+	text-decoration: none;
 	transition: all 0.2s ease-in-out;
 }
 
@@ -156,6 +157,10 @@ a:focus {
 	color: #151210;
 	background-color: #ffc857;
 	border-color: #ffc857;
+	text-decoration: none;
+}
+
+.contact-link span {
 	text-decoration: none;
 }
 
