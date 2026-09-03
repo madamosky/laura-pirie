@@ -152,15 +152,19 @@ a:focus {
 	transition: all 0.2s ease-in-out;
 }
 
+.default-bg a.contact-link,
+.default-bg a.contact-link:hover,
+.default-bg a.contact-link:focus,
+.default-bg a.contact-link i,
+.default-bg a.contact-link span {
+	text-decoration: none;
+}
+
 .contact-link:hover,
 .contact-link:focus {
 	color: #151210;
 	background-color: #ffc857;
 	border-color: #ffc857;
-	text-decoration: none;
-}
-
-.contact-link span {
 	text-decoration: none;
 }
 
