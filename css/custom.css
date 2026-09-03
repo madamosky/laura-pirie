@@ -126,6 +126,44 @@ a:focus {
 	min-height: 52px;
 }
 
+.contact-links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 18px;
+	margin-top: 24px;
+}
+
+.contact-link {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	min-width: 52px;
+	min-height: 52px;
+	padding: 0 18px;
+	border: 1px solid rgba(255, 255, 255, 0.42);
+	border-radius: 3px;
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 1;
+	transition: all 0.2s ease-in-out;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+	color: #151210;
+	background-color: #ffc857;
+	border-color: #ffc857;
+	text-decoration: none;
+}
+
+.contact-link .fa-instagram,
+.contact-link .fa-facebook {
+	font-size: 28px;
+}
+
 .btn-default {
 	color: #7c2d3d;
 }
