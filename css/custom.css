@@ -168,6 +168,7 @@ a:focus {
 	text-decoration: none;
 }
 
+.contact-link .fa-envelope,
 .contact-link .fa-instagram,
 .contact-link .fa-facebook {
 	font-size: 28px;
